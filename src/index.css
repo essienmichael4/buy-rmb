@@ -25,3 +25,7 @@
     background-color: #ffffff;
   }
 }
+
+a.active:hover, a.active{
+  @apply text-black border-b-4 border-black 
+}
