@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Orders = () => {
   return (
@@ -34,7 +35,7 @@ const Orders = () => {
                         </thead>
                         <tbody>
                             <tr className="py-4">
-                            <td className="py-4">#10001</td>
+                            <td className="py-4"><Link to={"10001"}>#10001</Link></td>
                             <td>01/02/2024</td>
                             <td>RMB</td>
                             <td>¢ 50.00</td>
